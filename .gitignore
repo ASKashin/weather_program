@@ -1,0 +1,10 @@
+# Npm libs
+node_modules
+
+# IDE
+.vscode
+.idea
+
+# Builds
+build
+public
