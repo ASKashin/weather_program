@@ -1,0 +1,14 @@
+@import "colors";
+
+.weather__btn {
+  background: #1F8EFA;
+  border-radius: 5px;
+  padding: 0 10px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+
+  &:hover {
+    background: darken(#1F8EFA, 5%);
+  }
+}

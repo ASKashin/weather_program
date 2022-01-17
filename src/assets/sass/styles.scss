@@ -1,22 +1,25 @@
-@import "colors.scss";
+@import "colors";
+@import "button";
+@import "input";
 
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-.container{
+.container {
   width: 1200px;
   margin: auto;
   padding: 0 15px;
 }
 
-body{
-  background: $dark-blue;
+body {
+  font-size: 16px;
+  color: $white;
+  background: #1D283E;
 }
-
 
 
 @import "weather";
