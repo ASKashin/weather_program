@@ -1,7 +1,3 @@
-@import "colors";
-@import "button";
-@import "input";
-
 
 * {
   box-sizing: border-box;
@@ -10,16 +6,15 @@
 }
 
 .container {
-  width: 1200px;
-  margin: auto;
-  padding: 0 15px;
+  width: 305px;
+  margin: 0 auto;
+  padding: 15px;
 }
 
 body {
   font-size: 16px;
-  color: $white;
-  background: #1D283E;
+  color: #ffffff;
+  background: #242E42;
 }
-
 
 @import "weather";
