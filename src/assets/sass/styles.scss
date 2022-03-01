@@ -1,20 +1,21 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .container {
-  width: 305px;
+  height: 325px;
   margin: 0 auto;
   padding: 15px;
+  width: 305px;
 }
 
 body {
-  font-size: 16px;
-  color: #ffffff;
   background: #242E42;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 @import "weather";
